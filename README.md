@@ -27,11 +27,18 @@ Clone this repo to the Pi
 Run the setup script
 `./setup.sh`
 
+Setup the server and set the ip address of the server on the ap
+
+Change the server ip in the android app in
+`AudioReocorder/app/src/main/java/project/vyas/audiorecorder/MainActivity.java#189`
+
+Build and install the android app.
+
 ### Issues/Bugs etc.
 
 If your alexa isn't running on startup you can check /var/log/alexa.log for errrors.
 
-You may need to adjust the volume and/or input gain for the microphone, you can do this with 
+You may need to adjust the volume and/or input gain for the microphone, you can do this with
 `alsamixer`
 
 ### Advanced Install
